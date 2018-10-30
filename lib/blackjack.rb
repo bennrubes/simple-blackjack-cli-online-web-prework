@@ -44,10 +44,6 @@ def invalid_command
   puts "Please enter a valid command"
 end
 
-#####################################################
-# get every test to pass before coding runner below #
-#####################################################
-
 def runner
   welcome
   sleep(0.75)
@@ -58,4 +54,3 @@ def runner
   end
   end_game(card_total)
 end
-    
