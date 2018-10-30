@@ -50,7 +50,7 @@ end
 
 def runner
   welcome
-  sleep(.75)
+  sleep(0.75)
   initial_round
   until card_total > 21
   hit?
